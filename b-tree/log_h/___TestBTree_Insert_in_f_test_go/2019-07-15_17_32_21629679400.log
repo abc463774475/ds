@@ -1,0 +1,66 @@
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:24 : [Info]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: array  []int{9, 5, 3, 20, 8, 7, 10, 30, 6, 12, 41, 50, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{6, 10, 20}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{3, 5}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{7, 8, 9}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{30, 41, 50}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  9
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{6, 10, 20}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{3, 5}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{7, 8}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{30, 41, 50}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  9
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  5
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{10, 20}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  4  keys []int{3, 6, 7, 8}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  5
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  3
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{10, 20}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{6, 7, 8}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  3
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  20
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  1  keys []int{10}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{6, 7, 8}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  4  keys []int{12, 17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  20
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  8
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  1  keys []int{10}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{6, 7}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  4  keys []int{12, 17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  8
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  7
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  1  keys []int{12}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{6, 10}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  7
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  10
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  1  keys []int{17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{6, 12}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  10
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  30
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:64 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Remove]: keys 30  not find in node
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  5  keys []int{6, 12, 17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  30
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  6
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  4  keys []int{12, 17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  6
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  12
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  12
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  41
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:64 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Remove]: keys 41  not find in node
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  41
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  50
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:64 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Remove]: keys 50  not find in node
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{17, 12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  50
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:29 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: sssssss  17
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-15 17:32:21 func[b-tree.(*BTreeNode).Traverse]: n  2  keys []int{12, 17}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Erro]: 2019-07-15 17:32:21 func[b-tree.TestBTree_Insert]: eeeeeeeee  17

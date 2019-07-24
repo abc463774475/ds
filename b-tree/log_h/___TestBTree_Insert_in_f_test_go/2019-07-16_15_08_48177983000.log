@@ -1,0 +1,6 @@
+C:/Users/hxd/Desktop/dsaa/src/b-tree/f_test.go:33 : [Info]: 2019-07-16 15:08:48 func[b-tree.TestBTree_Insert]: array  []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-16 15:08:48 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{6, 6, 16}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-16 15:08:48 func[b-tree.(*BTreeNode).Traverse]: n  5  keys []int{1, 2, 3, 4, 5}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-16 15:08:48 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{7, 8, 9}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-16 15:08:48 func[b-tree.(*BTreeNode).Traverse]: n  5  keys []int{11, 12, 13, 14, 15}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-16 15:08:48 func[b-tree.(*BTreeNode).Traverse]: n  4  keys []int{17, 18, 19, 20}

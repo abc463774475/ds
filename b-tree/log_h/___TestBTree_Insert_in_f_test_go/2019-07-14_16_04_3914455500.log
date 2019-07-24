@@ -1,0 +1,4 @@
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-14 16:04:40 func[b-tree.(*BTreeNode).Traverse]: n  1  keys []int{10, 10, 0, 0, 0}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:31 : [Info]: 2019-07-14 16:04:40 func[b-tree.(*BTreeNode).Traverse]: keys []int{10, 10, 0, 0, 0}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-14 16:04:40 func[b-tree.(*BTreeNode).Traverse]: n  3  keys []int{5, 6, 7, 12, 20}
+C:/Users/hxd/Desktop/dsaa/src/b-tree/node.go:27 : [Info]: 2019-07-14 16:04:40 func[b-tree.(*BTreeNode).Traverse]: n  4  keys []int{12, 17, 20, 30, 0}
