@@ -11,8 +11,6 @@ var (
 	NodeNum = 0
 )
 
-
-
 type BTreeNodeInfo struct {
 	N   int			// 关键字个数
 	Keys []int		// 关键字

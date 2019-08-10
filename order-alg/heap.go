@@ -1,6 +1,6 @@
 package order_alg
 
-func max_heapify(a []int,start,end int)  {
+func  max_heapify(a []int,start,end int)  {
 	dad := start
 	son := dad*2+1
 

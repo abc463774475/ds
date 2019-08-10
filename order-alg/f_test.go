@@ -11,6 +11,20 @@ func TestBubbling(t *testing.T) {
 		1,3,8,2,6,10,3,2,
 	}
 
+	//a := []int{}
+	//for i:=0;i <50;i++{
+	//	a = append(a, i+1)
+	//}
+	//a = append(a,1)
+	//a = append(a,5)
+	//a = append(a,5)
+	//a = append(a,3)
+	//rand.Shuffle(len(a), func(i, j int) {
+	//	a[i],a[j] =a[j],a[i]
+	//})
+
+	atmp := make([]int,len(a))
+	MergeSort(a,atmp,0,len(a) -1)
 
 	n_log.Info("a   %v",a)
 }
@@ -18,38 +32,50 @@ func TestBubbling(t *testing.T) {
 func TestQuick(t *testing.T) {
 	a := []int{
 		//3,8,2,6,10,1,
+		2, 8, 5, 1, 10, 3, 4, 6, 9, 7,
 	}
-	for i:=0; i < 50 ; i++{
-		a = append(a,i)
+	for i:=0; i < 10 ; i++{
+		a = append(a,i+1)
 	}
 
 	rand.Shuffle(len(a), func(i, j int) {
 		a[i],a[j] = a[j],a[i]
 	})
 
-	Quick_h(a)
+
+	n_log.Info("a   %v",a)
+	//
+	return
+	a = radix_sort(a)
 
 	n_log.Info("a   %v",a)
 }
 
 func f1(a []int)  {
-	a = []int{
-	//	11,23,
-	}
-
-
-
+	a = append(a,[]int{
+		1,2,3,4,5,6,7,8,9,10,
+	}...)
+	a[2] = 100
 	n_log.Info("a  %v",a)
 }
 
 func Test111( t *testing.T)  {
-	a := []int{
-		1,3,5,
-	}
-	n_log.Info("a  %v",a)
-	f1 (a)
+	a := make([]int,100,200)
+	a[0] = 1
+	a[1] = 2
+	a[2] = 3
 
-	n_log.Info("a  %v",a)
+
+	b := a[70:]
+	b[0] = 100000
+
+	c := a[:5]
+
+	//f1 (a)
+	n_log.Info("a  %v len  %v cap  %v",a,len(a),cap(a))
+	n_log.Info("b  %v len %v cap %v",b,len(b),cap(b))
+
+	n_log.Info("c  %v  len  %v cap  %v",c,len(c),cap(c))
 }
 
 func quick(a[]int)  {
@@ -156,38 +182,46 @@ func quick_h(a []int)  {
 	quick(a[head+1:])
 }
 
-func max_heap(a []int,start,end int)  {
-	//建立父节点指标和子节点指标
+func max_heap_h(a []int,start,end int)  {
 	dad := start
-	son := dad*2 + 1
+	son := 2*dad+1
 
 	for son <= end{
-		//先比较两个子节点大小，选择最大的
-		if son +1 <= end && a[son] < a[son+1] {
+		if son <= end -1 && a[son] <a[son+1] {
 			son++
 		}
-		if a[dad] > a[son] { //如果父节点大於子节点代表调整完毕，直接跳出函数
+		if a[dad] > a[son] {
 			return
-		}else { //否则交换父子内容再继续子节点和孙节点比较
-			a[dad],a[son] = a[son],a[dad]
-			dad = son
-			son = dad*2+1
 		}
+		a[son],a[dad] = a[dad],a[son]
+		dad = son
+		son = 2*dad+1
 	}
 }
 
-func heap(a []int)  {
-	//初始化，i从最後一个父节点开始调整
-	for i := len(a)/2-1; i >=0;i--{
-		max_heap(a,i,len(a) -1)
+func heap_h(a[]int)  {
+	for i:=len(a)/2-1;i>=0 ;i--{
+		max_heap_h(a, i,len(a) -1)
 	}
 
-	//先将第一个元素和已排好元素前一位做交换，再重新调整，直到排序完毕
-	for i:= len(a) - 1;i >0;i--{
-		a[0],a[i] = a[i],a[0]
-		max_heap(a,0,i-1)
+	for i := len(a) -1;i >0;i--{
+		a[i],a[0] = a[0],a[i]
+		max_heap_h(a,0,i - 1)
 	}
 }
 
+func TestMerge(t *testing.T) {
+	r1 := m_merge([]int{
+		1,7,10,19,
+	},[]int{
+		2,9,10,19,25,
+	})
+	n_log.Info("r1   %v",r1)
+}
 
+func TestR_h(t *testing.T)  {
+	r_h([]int{
 
+	},0)
+
+}
