@@ -1,8 +1,8 @@
 package b_tree_self
 
 import (
+	"github.com/abc463774475/bbTool/n_log"
 	"time"
-	"bbTool/n_log"
 )
 
 var (

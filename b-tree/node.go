@@ -1,6 +1,6 @@
 package b_tree
 
-import "bbTool/n_log"
+import "github.com/abc463774475/bbTool/n_log"
 
 type BTreeNode struct {
 	Keys []int		// 数组

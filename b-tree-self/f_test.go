@@ -1,10 +1,10 @@
 package b_tree_self
 
 import (
-	"testing"
-	"bbTool/n_log"
-	"time"
+	"github.com/abc463774475/bbTool/n_log"
 	"math/rand"
+	"testing"
+	"time"
 )
 
 func TestBTree_Insert(t *testing.T) {

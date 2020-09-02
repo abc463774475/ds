@@ -1,6 +1,6 @@
 package rb_tree
 
-import "bbTool/n_log"
+import "github.com/abc463774475/bbTool/n_log"
 
 type NodeInfo struct {
 	IsRed bool			// 不是红色就是黑色

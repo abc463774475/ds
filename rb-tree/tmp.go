@@ -1,6 +1,6 @@
 package rb_tree
 
-import "bbTool/n_log"
+import "github.com/abc463774475/bbTool/n_log"
 
 /*
 交换父节点  以自己为中心

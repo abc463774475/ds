@@ -1,6 +1,6 @@
 package order_alg
 
-import "bbTool/n_log"
+import "github.com/abc463774475/bbTool/n_log"
 
 /*
 	recursive function

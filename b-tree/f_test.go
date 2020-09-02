@@ -2,7 +2,7 @@ package b_tree
 
 import (
 	"testing"
-	"bbTool/n_log"
+	"github.com/abc463774475/bbTool/n_log"
 	//"math/rand"
 	"sort"
 )
