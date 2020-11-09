@@ -47,12 +47,63 @@ func max_sub_array(a []int) (int,int,int) {
 	return min_i,max_j,max_cha
 }
 
+// dont think about slice len is zero
+func max(vs ...int) int  {
+	m := vs[0]
+	for i := 1 ; i < len(vs); i++{
+		if vs[i] > m {
+			m = vs[i]
+		}
+	}
+	return m
+}
+
+// 求最大和值 _type :0  from [0:n-1]  :-1 from[n-1:0]
+func maxSum(a []int, _type int) int {
+	if _type == 0 {
+		m := 0
+		sum := 0
+		for _,v := range a{
+			sum += v
+			if sum > m {
+				m = sum
+			}
+		}
+		return m
+	}else {
+		m := 0
+		sum := 0
+		for i:= len(a) -1 ;i >=0 ;i--{
+			sum += a[i]
+			if sum > m {
+				m = sum
+			}
+		}
+
+		return m
+	}
+}
+
 /*
 	获取最大子数组   分治法
  */
+func sub_array_sum_max(a []int) int {
+	if len(a) == 0 {
+		n_log.Panic("a  zero")
+	}
+	if len(a) == 1 {
+		return a[0]
+	}
+	mid := len(a)/2
+	maxLeft := sub_array_sum_max(a[:mid])
+	maxRight := sub_array_sum_max(a[mid:])
+	maxMidle := 0
+	// 中间往左   中间往右的处理
+	m_l := maxSum (a[:mid],-1)
+	m_r := maxSum(a[mid:],0)
 
-func sub_array_sum_max(a []int)  {
 
-
+	maxMidle = m_l + m_r
+	return max(maxLeft,maxRight,maxMidle)
 }
 

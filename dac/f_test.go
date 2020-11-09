@@ -20,3 +20,10 @@ func TestInfo(t *testing.T)  {
 		n_log.Info ("111111   i %v   j  %v  k  %v",i,j,k)
 	}
 }
+
+func TestMaxSubSum(t *testing.T)  {
+	//a := []int{1,-2,3,5,-3,2}
+	a := []int{0,-2,3,5,-1,2}
+	m := sub_array_sum_max(a)
+	n_log.Info("maxsubsum  is  %v",m)
+}
