@@ -31,6 +31,8 @@ func CreateConsisent() *Consistent {
 	c.ring = make(map[uint32]string)
 	c.replicas = 20
 	return c
+
+	
 }
 
 func generateKey(element string,index int) string  {
