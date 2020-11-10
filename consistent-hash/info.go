@@ -1,6 +1,7 @@
 package consistent_hash
 
 import (
+	"github.com/abc463774475/bbtool/n_log"
 	"hash/crc32"
 	"sort"
 	"strconv"
@@ -30,6 +31,8 @@ func CreateConsisent() *Consistent {
 	c := &Consistent{}
 	c.ring = make(map[uint32]string)
 	c.replicas = 20
+
+	n_log.Info("1111111111111")
 	return c
 }
 
