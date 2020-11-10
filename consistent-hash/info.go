@@ -1,6 +1,7 @@
 package consistent_hash
 
 import (
+	"github.com/abc463774475/bbtool/n_log"
 	"hash/crc32"
 	"sort"
 	"strconv"
@@ -32,7 +33,7 @@ func CreateConsisent() *Consistent {
 	c.replicas = 20
 	return c
 
-	
+	n_log.Info("222222222222222")
 }
 
 func generateKey(element string,index int) string  {
