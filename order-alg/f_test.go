@@ -2,7 +2,7 @@ package order_alg
 
 import (
 	"testing"
-	"bbTool/n_log"
+	"bbtool/n_log"
 	"math/rand"
 )
 

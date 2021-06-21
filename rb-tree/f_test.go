@@ -2,7 +2,7 @@ package rb_tree
 
 import (
 	"testing"
-	"github.com/abc463774475/bbTool/n_log"
+	"github.com/abc463774475/bbtool/n_log"
 	"math/rand"
 	"time"
 )

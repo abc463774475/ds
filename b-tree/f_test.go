@@ -1,8 +1,8 @@
 package b_tree
 
 import (
+	"github.com/abc463774475/bbtool/n_log"
 	"testing"
-	"github.com/abc463774475/bbTool/n_log"
 	//"math/rand"
 	"sort"
 )

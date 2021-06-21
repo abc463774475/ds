@@ -1,6 +1,6 @@
 package order_alg
 
-import "github.com/abc463774475/bbTool/n_log"
+import "github.com/abc463774475/bbtool/n_log"
 
 //func merge_h(left, right []int) (relust []int) {
 //	l, r := 0, 0
